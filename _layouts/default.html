@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- THE BANNER I ADDED -->
+    <div class="site-banner">
+      <img src="{{ site.banner }}" />
+    </div>
+    <!-- /THE BANNER I ADDED -->
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -33,6 +38,7 @@
         </header>
       </div>
     </div>
+
 
     <div id="main" role="main" class="container">
       {{ content }}

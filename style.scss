@@ -180,6 +180,23 @@ img {
   }
 }
 
+.site-banner {
+  width: 1280px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 0px;
+  }
+}
+
 .site-info {
   float: left;
 
