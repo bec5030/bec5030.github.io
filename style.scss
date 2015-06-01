@@ -181,16 +181,14 @@ img {
 }
 
 .site-banner {
-  width: auto;
-  height: auto;
-  overflow: hidden;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 
   @include mobile {
     float: none;
     display: block;
-    margin: 0 auto;
+    margin: auto auto;
   }
 
   img {
