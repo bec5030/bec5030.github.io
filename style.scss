@@ -241,10 +241,23 @@ nav {
   }
 
   a {
+    vertical-align: top;
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
+    display: inline-block;
+    ul li {
+      display: none;
+    }
+    &:hover {
+      ul li {
+        display: block;
+        &:hover {
+          background-color: $lightGray;
+        }
+      }
+    }
     letter-spacing: 1px;
 
     @include mobile {
