@@ -3,7 +3,7 @@ layout: post
 title: Arcade Controller
 ---
 
-This post is about an arcade controller I created from a microcontroller using C code. The controller runs on a bare metal STM32F4 and acts as a USB HID keyboard when connected to a computer. 
+This post is about an arcade controller I created from a microcontroller using C code. The controller runs on a bare metal STM32F4 and acts as a USB HID keyboard. 
 
 ![an image alt text]({{ site.baseurl }}/images/controller_top.jpg "arcade controller top view")
 ![an image alt text]({{ site.baseurl }}/images/controller_inside.jpg "arcade controller inside view")
