@@ -3,6 +3,29 @@ layout: page
 title: About
 permalink: /about/
 ---
-I’m Bradley and this is my website. Woohoo! I’m a computer engineering student at the Rochester Institute of Technology, as well as an embedded systems software engineer and Co-Founder at [Case Wallet Inc] (http://choosecase.com). Case Wallet is a security company currently specializing in bitcoin technologies. Our first product, a secure and easy to use bitcoin wallet, shipped August 2015 and sold out quickly. At school I recently began my Master's research in Software Defined Radio (SDR) for reconfigurable hardware (FPGAs). I have a great passion for space and recently had the incredible opportunity to be a research associate at the NASA Langley Research Center. I am a member of the [R.I.T. Space Exploration
-research group] (http://sites.sg.rit.edu/spex/) as well as the R.I.T. Heterogeneous Computing research group. I also like to do a lot of projects outside of school and work so this website will mostly be documenting them. Some of these projects include Arduino controlled L.E.D. strip Christmas lights, Raspberry Pi security camera, arcade controller, and this website! All of my code and whatever other documentation I use should also be [available on github]
-(https://github.com/BradleyConn).
+
+## About this website 
+
+I’m Bradley and this is my website! I like to do a lot of personal projects so this website will mostly be documenting them. I enjoy all areas of computing but often find myself most interested in low level electronics, and interacting with the physical world, so there’s a good chance most of the projects will have to do with that. All of my code and whatever other documentation I create should also be [available on github](https://github.com/BradleyConn).
+
+
+### Some projects areas of interest include (in no particular order):
+* Radios,
+* Heterogeneous compute acceleration,
+* CNC machining/3D printing,
+* Wearables,
+* Lights,
+* Robotics,
+* Rockets,
+
+
+## About me
+
+In 2014 I was hired at CaseWallet, now called Token, as an embedded systems software engineer to develop and produce one of the earliest bitcoin hardware wallets. However, the majority of my time at Token has been spent working on wearable tech for identity and authentication.
+In addition to my work at Token, I have had the privilege of holding two internship positions at NASA. First as a research associate at the NASA Langley Research Center, then as a software engineer at the NASA Glenn Research Center. 
+
+I attended the Rochester Institute of Technology where I obtained my undergraduate and graduate degrees in Computer Engineering. My master’s thesis research covered the effective use of High level synthesis for FPGAs, targeting a software defined radio error correction application. 
+At RIT I was also a part of the space exploration research group, heterogeneous computing research group, and varsity lacrosse team. 
+
+Outside of work I can often be found playing games of all kinds, building or learning new things, or traveling and exploring the outdoors. An avid hiker, I’ve had the great privilege of hiking the entire 211 mile John Muir Trail, the Grand Canyon rim to rim, and 45 out of the 46 Adirondack high peaks, with hopefully many more hikes to come!
+
