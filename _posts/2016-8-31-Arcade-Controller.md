@@ -21,4 +21,4 @@ I also ran into a very interesting issue while developing this controller.  When
 issue I set the microcontroller to use internal pull up resistors and never had a problem since.  
 
 
-The code for this project can be found [here] (https://github.com/BradleyConn/arcade_controller).
+The code for this project can be found [here](https://github.com/BradleyConn/arcade_controller).
