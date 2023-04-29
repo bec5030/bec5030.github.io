@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Remote Controlled Lawn Mower
+categories: [Rover, Best]
 ---
 
 This post is about a remote controlled lawn mower I created!
@@ -14,7 +15,7 @@ This post is about a remote controlled lawn mower I created!
 Introducing phase one of the autonomous lawn mower project! A remote controlled lawn mower/rover/platform!
 
 ## Motivation
-I hate doing repetitive tasks. Cutting the grass is one of those tasks that I really wish I never had to do again. Working landscaping jobs over many summers, I have cut multiple lifetimes worth of grass. I am over it.  Over those many hours I often have contemplated automating the task, and I finally set forth to do it. 
+I hate doing repetitive tasks. Cutting the grass is one of those tasks that I really wish I never had to do again. Working landscaping jobs over many summers, I have cut multiple lifetimes worth of grass. I am over it.  Through those many hours I often have contemplated automating the task, and I finally set forth to do it. 
 
 I decided to break this project into two phases. In phase one, I wanted something very achievable, and to make grass cutting fun.  Phase two would be the ultimate desire.
 
@@ -35,7 +36,7 @@ There was much work put into researching components and designing systems before
 
 In all the attempts to de-risk the project the scariest part was not knowing if any of it was actually going to come together and work. I mean I was hopeful it would and probably should in concept but I was never fully sure until everything was integrated and I tested it. In theory I ought to be able to push a reel lawn mower with wheelchair motors, *right*? It should be capable of turning even with fixed wheels, *right*? The battery should probably be able to deliver enough power to function, *right*? And last at least 45 minutes, *right*? Etc.
 
-And to my delight it all worked! It was over the moon seeing it cut for the first time, and it was such a huge relief! A demonstration can be seen below. One thing I certainly wasn't expecting was how cool it would sound!
+And to my delight it all worked! I was over the moon seeing it cut for the first time, and it was such a huge relief! A demonstration can be seen below. One thing I certainly wasn't expecting was how cool it would sound!
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OjxiF_BOaNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
