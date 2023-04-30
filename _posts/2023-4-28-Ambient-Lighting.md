@@ -2,12 +2,12 @@
 layout: post
 title: Ambient TV Lighting
 categories: [Lights, Featured]
-featured-image: /images/to_be_documented/ambient_light1.jpg
+featured-image: /images/ambient_light/ambient_light1.jpg
 ---
 
 For the longest time I’ve wanted to make an ambient lighting tv setup. If you’re not sure what that is, check the pictures and videos below! 
 
-![an image alt text]({{ site.baseurl }}/images/to_be_documented/ambient_light1.jpg "ambient lighting")
+![an image alt text]({{ site.baseurl }}/images/ambient_light/ambient_light1.jpg "ambient lighting")
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DBtXSFpyUWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -20,7 +20,7 @@ So for this project to work, the first order of business is choosing LED strips,
 
 A block diagram of the connections can be seen below. 
 
-![an image alt text]({{ site.baseurl }}/images/to_be_documented/ambient_lighting_block_diagram.png "ambient lighting block diagram")
+![an image alt text]({{ site.baseurl }}/images/ambient_light/ambient_lighting_block_diagram.png "ambient lighting block diagram")
 
 The other thing to look out for is that the Raspberry Pi needs to communicate with the led strip, but they operate on different voltages. The Raspberry Pi, even though it has a 5V power source, runs the pins on 3.3V. Thus a level shifter is used to enable the communication between the two voltages.The communication happens over an SPI interface.
 
