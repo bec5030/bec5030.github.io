@@ -10,13 +10,13 @@ I’m Bradley and this is my website! I like to do a lot of personal projects so
 
 
 ### Some projects areas of interest include (in no particular order):
-* Radios,
-* Heterogeneous compute acceleration,
-* CNC machining/3D printing,
-* Wearables,
-* Lights,
-* Robotics,
-* Rockets,
+* Radios
+* Heterogeneous compute acceleration
+* CNC machining/3D printing
+* Wearables
+* Lights
+* Robotics
+* Rockets
 
 
 ## About me
