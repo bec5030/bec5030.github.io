@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Chia Cryptocurrency Farming
+categories: [Cryptocurrency]
 ---
 
 A quick post about my Chia farming setup.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Real Time Control Project
+categories: [Controller]
 ---
 
 This post is about a real time control project with a ping pong ball in a tube.

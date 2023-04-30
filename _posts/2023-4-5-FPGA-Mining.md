@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cryptocurrency FPGA mining systems, plus my adventures in water cooling!
+categories: [Cryptocurrency, FPGA]
 ---
 
 A post about my FPGA mining setup.

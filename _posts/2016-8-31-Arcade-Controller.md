@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Arcade Controller
+categories: [Controller]
 ---
 
 This post is about an arcade controller I created from a microcontroller using C code. The controller runs on a bare metal STM32F4 and acts as a USB HID keyboard. 

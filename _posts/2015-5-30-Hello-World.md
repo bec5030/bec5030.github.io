@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The first post!
+categories: [Website]
 ---
 
 The first post is about this website and some of the developer tools I use.
