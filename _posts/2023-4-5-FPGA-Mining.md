@@ -2,6 +2,7 @@
 layout: post
 title: Cryptocurrency FPGA mining systems, plus my adventures in water cooling!
 categories: [Cryptocurrency, FPGA]
+featured-image: /images/fpga_mining/bcu1525_watercooling.jpg
 ---
 
 A post about my FPGA mining setup.

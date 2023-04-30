@@ -2,6 +2,7 @@
 layout: post
 title: Cryptocurrency GPU Mining
 categories: [Cryptocurrency, GPU]
+featured-image: /images/gpu_mining/gpu_rig1.jpg
 ---
 
 A quick post about my GPU mining setup.
