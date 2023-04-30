@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-<h1>Highlighted Projects</h1>
+<h1>Featured Projects</h1>
 
 <div id="archives">
   <div class="archive-group">
-    {% assign category_name = "Highlight" %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
     {% assign my_counter = "zero" %}
-    {% for post in site.categories[category_name] %}
+    {% assign posts = site.categories.Featured | sort: "date" | reverse %}
+    {% for post in posts  %}
       {% if my_counter == "zero" %}
         <div class="grid">
       {% endif %}
@@ -33,7 +31,6 @@ layout: default
     {% unless my_counter == "zero" %}
       </div>
     {% endunless %}
-  </div>
 </div>
 
 <div class="posts">
@@ -62,7 +59,7 @@ layout: default
   <div class="col-1-2">
     <div class="content">
            <p>...insert content middle...</p>
-    {% assign category_name = "Highlight" %}
+    {% assign category_name = "Featured" %}
     <div id="#{{ category_name | slugize }}"></div>
     <p></p>
 

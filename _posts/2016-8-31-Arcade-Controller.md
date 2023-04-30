@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Arcade Controller
-categories: [Controller, Highlight]
+categories: [Controller]
 featured-image: /images/controller_top.jpg
 ---
 

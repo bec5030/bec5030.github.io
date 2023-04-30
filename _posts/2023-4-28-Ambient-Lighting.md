@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ambient TV Lighting
-categories: [Lights, Highlight]
+categories: [Lights, Featured]
 featured-image: /images/to_be_documented/ambient_light1.jpg
 ---
 

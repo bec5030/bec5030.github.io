@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remote Controlled Lawn Mower
-categories: [Rover, Highlight]
+categories: [Rover, Featured]
 featured-image: /images/rover/mower1.jpg
 ---
 
