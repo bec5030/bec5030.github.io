@@ -1,0 +1,17 @@
+---
+layout: page
+title: Chronologically Sorted
+---
+
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+
+      <a href="{{ site.baseurl }}{{ post.url }}"{{post.title}}><img src="{{ site.baseurl }}{{ post.featured-image }}" width="250" ></a>
+
+    </article>
+  {% endfor %}
+</div>

@@ -6,7 +6,7 @@ layout: default
 <div id="archives">
   <div class="archive-group">
     {% assign my_counter = "zero" %}
-    {% assign posts = site.categories.Featured | sort: "date" | reverse %}
+    {% assign posts = site.categories.Featured | sort: "date" %}
     {% for post in posts  %}
       {% if my_counter == "zero" %}
         <div class="grid">
@@ -34,49 +34,11 @@ layout: default
 </div>
 
 <div class="posts">
-<h1>Chronological</h1>
+<h1>Chronological Feed</h1>
   {% for post in site.posts %}
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <a href="{{ site.baseurl }}{{ post.url }}"{{post.title}}><img src="{{ site.baseurl }}{{ post.featured-image }}" width="200" ></a>
     </article>
   {% endfor %}
-</div>
-
-<div class="grid">
-  <div class="col-1-2">
-    <div class="content">
-           <p>...insert content left side...</p>
-    </div>
-  </div>
-
-  <div class="col-1-2">
-    <div class="content">
-           <p>...insert content middle...</p>
-    {% assign category_name = "Featured" %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-        <div class="content">
-          <article class="archive-item">
-            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-          </article>
-        </div>
-    {% endfor %}
-    </div>
-  </div>
-    <div class="col-1-2">
-       <div class="content">
-           <p>...insert content right side...</p>
-       </div>
-    </div>
 </div>
