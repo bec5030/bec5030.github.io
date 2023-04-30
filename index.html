@@ -1,8 +1,43 @@
 ---
 layout: default
 ---
+<h1>Highlighted Projects</h1>
+
+<div id="archives">
+  <div class="archive-group">
+    {% assign category_name = "Highlight" %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+    {% assign my_counter = "zero" %}
+    {% for post in site.categories[category_name] %}
+      {% if my_counter == "zero" %}
+        <div class="grid">
+      {% endif %}
+      <div class="col-1-2">
+        <div class="content">
+          <article class="archive-item">
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
+	    <a href="{{ site.baseurl }}{{ post.url }}"{{post.title}}><img src="{{ site.baseurl }}{{ post.featured-image }}"></a>
+          </article>
+        </div>
+      </div>
+      {% if my_counter == "zero" %}
+        {% assign my_counter = "one" %}
+      {% elsif my_counter == "one" %}
+        {% assign my_counter = "two" %}
+      {% elsif my_counter == "two" %}
+        {% assign my_counter = "zero" %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    {% unless my_counter == "zero" %}
+      </div>
+    {% endunless %}
+  </div>
+</div>
 
 <div class="posts">
+<h1>Chronological</h1>
   {% for post in site.posts %}
     <article class="post">
 
@@ -15,4 +50,36 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+</div>
+
+<div class="grid">
+  <div class="col-1-2">
+    <div class="content">
+           <p>...insert content left side...</p>
+    </div>
+  </div>
+
+  <div class="col-1-2">
+    <div class="content">
+           <p>...insert content middle...</p>
+    {% assign category_name = "Highlight" %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+        <div class="content">
+          <article class="archive-item">
+            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+          </article>
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+    <div class="col-1-2">
+       <div class="content">
+           <p>...insert content right side...</p>
+       </div>
+    </div>
 </div>

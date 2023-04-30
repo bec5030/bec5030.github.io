@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Remote Controlled Lawn Mower
-categories: [Rover, Best]
+categories: [Rover, Highlight]
+featured-image: /images/rover/mower1.jpg
 ---
 
 This post is about a remote controlled lawn mower I created!

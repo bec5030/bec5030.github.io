@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Ambient TV Lighting
-categories: [Lights]
+categories: [Lights, Highlight]
+featured-image: /images/to_be_documented/ambient_light1.jpg
 ---
 
 For the longest time I’ve wanted to make an ambient lighting tv setup. If you’re not sure what that is, check the pictures and videos below! 

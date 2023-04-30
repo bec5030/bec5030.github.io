@@ -325,6 +325,19 @@ footer {
   text-align: center;
 }
 
+.grid {
+  display: flex;
+ }
+.col-1-2 {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cole-1-2:last-child {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
