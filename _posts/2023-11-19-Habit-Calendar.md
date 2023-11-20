@@ -2,12 +2,14 @@
 layout: post
 title: Habit Calendar
 categories: [Lights, Featured]
-featured-image: /images/habit_calendar/habit_calendar1.jpg
+featured-image: /images/habit_calendar/HabitCalendar1.jpg
 ---
 
 This post is about an LED "calendar" I created to help track and promote habits over the course of a year. This project was scratch built from the ground up. Starting from circuit and PCB design to full software feature implementation. I'm proud to say it has been succesfully completed!
 
--- <glamor shot1>
+{:refdef: style="text-align: center;"}
+![an image alt text]({{ site.baseurl }}/images/habit_calendar/HabitCalendar1.jpg "HabitCalendar1"){: width="350" }
+{:refdef}
 
 ### Introduction:
 
