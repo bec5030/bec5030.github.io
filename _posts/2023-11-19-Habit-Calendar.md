@@ -5,7 +5,7 @@ categories: [Lights, Featured, PCB Design]
 featured-image: /images/habit_calendar/HabitCalendar1.jpg
 ---
 
-This post is about an LED "calendar" I created to help track and promote habits over the course of a year. This project was scratch built from the ground up. Starting from circuit and PCB design to full software feature implementation. I'm proud to say it has been succesfully completed!
+This post is about an LED "calendar" I created to help track and promote habits over the course of a year. This project was scratch built from the ground up. Starting from circuit and PCB design to full software feature implementation. I'm proud to say it has been succesfully completed! All of the projects files can be found [here](https://github.com/BradleyConn/habit-calendar/blob/master/).
 
 {:refdef: style="text-align: center;"}
 ![an image alt text]({{ site.baseurl }}/images/habit_calendar/HabitCalendar1.jpg "HabitCalendar1"){: width="350" }
@@ -98,11 +98,15 @@ Along with the tiled variant for the full calendar here:
 {:refdef}
 
 
-The real (slightly messy) schematic can be seen [here](https://github.com/BradleyConn/habit-calendar/blob/master/hardware/kicad/habit-calendar-sch-rev0.pdf)
+The real (slightly messy) schematic PDF can be found [here](https://github.com/BradleyConn/habit-calendar/blob/master/hardware/kicad/habit-calendar-sch-rev0.pdf) and seen below.
+
+{:refdef: style="text-align: center;"}
+![an image alt text]({{ site.baseurl }}/images/habit_calendar/HabitCalendarFullSchematic.jpg "FullSchematic")
+{:refdef}
 
 I laid out a board in KiCad and sent it off to JLCPCB to get produced and assembled.
 
-The board layout can be found [here](https://github.com/BradleyConn/habit-calendar/blob/master/hardware/kicad/habit-calendar-pcb-rev0.pdf)
+The board layout PDF can be found [here](https://github.com/BradleyConn/habit-calendar/blob/master/hardware/kicad/habit-calendar-pcb-rev0.pdf)
 
 {:refdef: style="text-align: center;"}
 ![an image alt text]({{ site.baseurl }}/images/habit_calendar/HabitCalendarLayout.jpg "Layout"){: width="350" }
