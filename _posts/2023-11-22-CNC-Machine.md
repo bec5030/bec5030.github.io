@@ -50,4 +50,6 @@ featured-image: /images/cnc/table2.jpg
 ![an image alt text]({{ site.baseurl }}/images/cnc/sign2.jpg "sign2")
 {:refdef}
 
+![an image alt text]({{ site.baseurl }}/images/cnc/cuttingLeaf.jpg "cuttingLeaf")
+{:refdef}
 
