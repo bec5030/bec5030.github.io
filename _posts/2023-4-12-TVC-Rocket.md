@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thust Vector Controlled Rocket
+title: Thrust Vector Controlled Rocket
 categories: [Controller, Featured, Rocket]
 featured-image: /images/tvc/tvcFam.jpg
 ---
