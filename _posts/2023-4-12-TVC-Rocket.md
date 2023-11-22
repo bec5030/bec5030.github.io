@@ -7,6 +7,9 @@ featured-image: /images/tvc/tvcFam.jpg
 
 This post is about a Thrust Vector Controlled (TVC) Rocket project that I am working on! This post was thrown together quickly to showcase some of the progress that has been made but lacks most of the details.
 
+{:refdef: style="text-align: center;"}
+![an image alt text]({{ site.baseurl }}/images/tvc/tvcDisplay.jpg "Rocket Picture"){: width="450" }
+{:refdef}
 
 ### Thrust Vector Controlled Rocket Project:
 
