@@ -104,7 +104,7 @@ The real (slightly messy) schematic PDF can be found [here](https://github.com/B
 ![an image alt text]({{ site.baseurl }}/images/habit_calendar/HabitCalendarFullSchematic.jpg "FullSchematic")
 {:refdef}
 
-I laid out a board in KiCad and sent it off to JLCPCB to get produced and assembled.
+I laid out a board in KiCad and sent it off to JLCPCB to get produced and assembled. Going as cheap as possible meant a 2 layer board with components on one side only.
 
 The board layout PDF can be found [here](https://github.com/BradleyConn/habit-calendar/blob/master/hardware/kicad/habit-calendar-pcb-rev0.pdf)
 
