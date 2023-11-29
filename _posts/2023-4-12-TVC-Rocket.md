@@ -15,9 +15,9 @@ This post is about a Thrust Vector Controlled (TVC) Rocket project I am working 
 
 This project is a work in progress but can roughly be broken down into four parts.
 
-- Flight computer design (complete)
+- Flight computer board design and assembly (complete)
 - 3d modeling and part selection (mostly complete)
-- Physics/control algorithm simulation (complete but waiting on updated rocket characterization)
+- Physics/control algorithm simulation (complete but need updated rocket characterization to utilize)
 - Flight software (peripheral drivers mostly written, main loop WIP)
 
 
@@ -27,7 +27,7 @@ I designed a flight controller from scratch using KiCad and had it produced and 
 
 ![an image alt text]({{ site.baseurl }}/images/tvc/enosGlamourShot.jpg "The Flight Computer")
 
-Enos is named after the first chimpanzee to reach orbit! He's depicted in our mascot logo, showcased here:
+Enos is named after the first chimpanzee to reach orbit! He's depicted in the mascot logo, showcased here:
 
 {:refdef: style="text-align: center;"}
 ![an image alt text]({{ site.baseurl }}/images/tvc/enosMascot.jpg "Enos Mascot")
@@ -45,12 +45,12 @@ The full board is shown below:
 {:refdef}
 
 
-The schematic can be found [here](https://github.com/BradleyConn/bc_flight_computer/blob/main/Hardware/KiCad/projects/rp2040_v0/rp2040_v0/schematic_v0.pdf)
+The schematic can be found [here](https://github.com/BradleyConn/bc_flight_computer/blob/main/Hardware/KiCad/projects/rp2040_v0/rp2040_v0/schematic_v0.pdf).
 
 The schematic is well annotated. The first page and heart of the flight computer, is shown below.
 ![an image alt text]({{ site.baseurl }}/images/tvc/schematic_v0_page1.jpg "Schematic")
 
-The gerbers can be found [here](https://github.com/BradleyConn/bc_flight_computer/blob/main/Hardware/KiCad/projects/rp2040_v0/rp2040_v0/gerbers_v0.pdf) and [here](https://github.com/BradleyConn/bc_flight_computer/blob/main/Hardware/KiCad/projects/rp2040_v0/rp2040_v0/gerbers_v0_single_page.pdf)
+PDF files of the gerbers can be found [here](https://github.com/BradleyConn/bc_flight_computer/blob/main/Hardware/KiCad/projects/rp2040_v0/rp2040_v0/gerbers_v0.pdf) and [here](https://github.com/BradleyConn/bc_flight_computer/blob/main/Hardware/KiCad/projects/rp2040_v0/rp2040_v0/gerbers_v0_single_page.pdf).
 
 And they look like this:
 
@@ -68,7 +68,7 @@ The board typically requires headers to be soldered on. The complete board can b
 
 
 
-I figured out a neat little trick for this board. I wanted to maintain as much flexibility as I could, not knowing if the board had design flaws or not, as it was my first board. So, each peripheral component had breaks in the signals to disconnect or rewire completely. To save space and also not have to solder extra through-hole components, I used zero Ohm resistors to bridge the signals. They can easily be removed and updated if needed. This also had the benefit of essentially creating an extra layer for the board as the signals rose over the board, and other signals could run underneath the resistor. An example is shown here:
+I figured out a neat little trick for this board. I wanted to maintain as much flexibility as I could, not knowing if the board had design flaws or not, as it was my first board. So, each peripheral component had breaks in the signals to disconnect or rewire completely. To save space and also not have to solder extra through-hole components, I used zero Ohm resistors to bridge the signals over the through-holes. They can easily be removed and updated if needed. This also had the benefit of essentially creating an extra layer for the board as the signals rose over the board, and other signals could run underneath the resistor. An example is shown here:
 
 {:refdef: style="text-align: center;"}
 ![an image alt text]({{ site.baseurl }}/images/tvc/enosZeroOhm.jpg "Zero Ohm trick")
